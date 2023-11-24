@@ -10,7 +10,7 @@ interface NoteDao {
     fun getAll(): List<NoteEntity>
 
     @Insert
-    fun insertAll(noteEntity: NoteEntity)
+    fun insert(noteEntity: NoteEntity)
 
     @Delete
     fun delete(noteEntity: NoteEntity)
